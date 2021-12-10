@@ -31,6 +31,7 @@ router.get('/:id/reviews', (req, res) => {
         });
     }
 });
+// post movie review
 router.post('/:id/reviews', (req, res) => {
     const id = parseInt(req.params.id);
 
